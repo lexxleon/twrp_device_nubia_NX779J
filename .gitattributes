@@ -1,0 +1,11 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Binary prebuilts must never be normalized
+prebuilt/kernel binary
+prebuilt/dtbo.img binary
+*.img binary
+*.bin binary
+*.ko binary
+recovery/root/data/vendor/touchscreen/** binary
+recovery/root/vendor/firmware/** binary
