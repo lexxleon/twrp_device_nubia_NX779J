@@ -126,6 +126,9 @@ TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
 TW_INCLUDE_FBE_METADATA_DECRYPT := true
 BOARD_USES_QCOM_FBE_DECRYPTION := true
+# Device has AIDL keymint v3, no HIDL android.hardware.keymaster.
+# Force using keymaster_ver prop (from system.prop) instead of HIDL manifest lookup.
+TW_FORCE_KEYMASTER_VER := true
 BOARD_USES_METADATA_PARTITION := true
 TW_USE_FSCRYPT_POLICY := 2
 PLATFORM_VERSION := 99.87.36

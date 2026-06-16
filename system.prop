@@ -6,6 +6,11 @@ ro.boot.dynamic_partitions=true
 # vendor.gatekeeper.disable_spu=true
 # vendor.gatekeeper.is_security_level_spu=0
 
+# Keymaster version for FBE/metadata decrypt
+# Device has AIDL keymint v3 (no HIDL android.hardware.keymaster).
+# TWRP maps "4.1" to the keymaster API path used by vold for AIDL devices.
+keymaster_ver=4.1
+
 # Battery Property
 ro.charger.enable_suspend=1
 
