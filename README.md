@@ -1,4 +1,4 @@
-# TWRP device tree for RedMagic 10 Pro (NX789J)
+# TWRP device tree for RedMagic 10 AIR (NX779J)
 
 ## Features
 
